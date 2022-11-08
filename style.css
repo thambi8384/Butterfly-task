@@ -22,7 +22,7 @@
 }
 .image{
 	width:40%;
-	padding-left:10%;
+	padding-left: 10%;
 }
 .nav{ 
 	padding-right:11%;
@@ -123,6 +123,9 @@
 		flex-direction: row;
 	}
 }
+
+
+
 .container-1{
 		width:100%;
 		margin:3% 0;
@@ -151,7 +154,6 @@
 
 	margin-top:2%;
 	margin-left:4%;
-	font-family: "Dosis", sans-serif;
 	
 }
 .box-2{
@@ -266,36 +268,36 @@
 	}
 }
 @media(min-width:320px){
-	.bg{
+	.project{
 		width:100%;
 		margin:0 auto;
 	}
-	.col-4{
+	.client{
 		display:flex;
 		flex-wrap:wrap;
 		width:100%;
 	}
-	.card-2{
+	.card{
 		width:50%;
 	}
-	.col-4 h2{
+	.client h2{
 		font-size:45px;
 		color:skyblue;
 	}
 }
 @media(min-width:600px){
-	.bg{
+	.project{
 		width:100%;
 	}
-	.card-2{
+	.card{
 		width:50%;
 	}
 }
 @media(min-width:1025px){
-	.bg{
+	.project{
 		width:100%;
 	}
-	.card-2{
+	.card{
 		width:0%;
 	}
 }
@@ -306,26 +308,26 @@
 	background-size:cover;
 	background-attachment:fixed;
 }
-.col-4{
+.client{
 	display:flex;
 	justify-content:space-evenly;
 	padding-top:4%;
 }
-.col-3{
+.hard{
 	text-align:center;
 	padding-top:4%; 
 }
-.card-2{
+.card{
 	text-align:center;
 }
-.col-3 p{
+.hard p{
 	padding:10px;
 	font-size:19px;
 }
-.col-3 h2{
+.hard h2{
 	font-size:30px;
 }
-.card-2 p{
+.card p{
 	padding:4px;
 }
 @media (min-width:320px){
@@ -391,33 +393,33 @@
     transition:all 1s ease;
 }
 @media(min-width:320px){
-	.watch{
+	.service-whole{
 		width:100%;
 	}
-	.watch-1{
+	.service-point{
 		width:100%;
 	}
 }
 @media(min-width:600px){
-	.watch{
+	.service-whole{
 		width:90%;
 		margin:0 auto;
 		display:flex;
 		flex-wrap:wrap;
 		justify-content:space-between;
 	}
-	.watch-1{
+	.service-point{
 		width:40%;
 	}
 }
 @media(min-width:1025px){
-	.watch{
+	.service-whole{
 		width:85%;
 		display:flex;
 		flex-wrap:wrap;
 		margin:0 auto;
 	}
-	.watch-1{
+	.service-point{
 		width:30%;
 	}
 }
@@ -425,10 +427,10 @@
 	width:80%;
 	margin:0 auto;
 }
-.wat{
+.service-head{
 	text-align:center;
 }
-.wat p{
+.service-head p{
 	padding:1rem;
 }
 .container-5{
@@ -438,7 +440,7 @@
 	background-size:cover;	
 	
 }
-.watch{
+.service-whole{
 	
 	display:flex;
 	flex-wrap:wrap;
@@ -455,12 +457,10 @@
 }
 .note-1{
 }
-.watch-1{
+.service-point{
 
 	display:flex;
 	background-color:#FFFFFF;
-	  
-	
 	margin:0 10px 20px 10px;
 	padding:50px;
 	border-radius:10px;
@@ -473,58 +473,22 @@
 	left:-20px;
 	font-size:64px;
 }
-.watch-1:hover{
+.service-point:hover{
 	transform:translate(0px,-5px);
 }
-.watch-1:hover h2{
+.service-point:hover h2{
 	color:#007aff;
 }
-@media(min-width:320px){
-	.pope{
-		width:100%;
-		margin:auto;
-	}
-	.pope-1{
-		width:100%;
-	}
-}
-@media(min-width:600px){
-	.pope{
-		display:flex;
-		flex-wrap:wrap;
-		justify-content:space-between;
-		overflow:hidden;
-		width:98%;
-	}
-	.pope-1{
-		width:48%;
-		position:relative;
-	}
-}
-@media(min-width:1025px){
-	.pope{
-
-		display:flex;
-		flex-wrap:wrap;
-		justify-content:space-between;
-		width:100%;
 		
-	}
-	.pope-1{
-		width:32%;
-		position:relative;
-	}
-}
-		
-.container-8{
+.container-6{
 	width:100%;
 	margin:0 auto;
 }
-.content-7{
+.port-point{
 	width:80%;
 	margin:0 auto;
 }
-.box-7{
+.port-head{
 	text-align:center;
 	margin:3rem;
 }
@@ -533,21 +497,21 @@
 }
 .head-2 h1{
 	padding-bottom:2rem;
-	font-family: "Dosis", sans-serif;
+	
 }
 	
 .class a{
 	text-decoration:none;
 	color:black;
-	padding:1rem;
+	padding:4`rem;
 }
 .class a:hover{
 	color:#49b5e7;
 }
-.class .i{
+.class.i{
 		color:#49b5e7;
 }
-.box-8{
+.port-image{
 	display:flex;
 	flex-wrap:wrap;
 	margin:0 auto;
@@ -613,7 +577,7 @@
 }
 @media(min-width:320px){
 	
-    .box-8{
+    .port-image{
 		width:100%;
 		margin:auto;
 	}
@@ -624,7 +588,7 @@
 }
 @media(min-width:600px){
 	
-	.box-8{
+	.port-image{
 		display:flex;
 		flex-wrap:wrap;
 		overflow:hidden;
@@ -641,7 +605,7 @@
 @media(min-width:1025px){
 	
 			
-	.box-8{
+	.port-image{
 		display:flex;
 		flex-wrap:wrap;
 		overflow:hidden;
@@ -655,7 +619,7 @@
 	}
 }
 .back{
-	background:linear-gradient(#1a303a,#151a1ca1),url(../image/cta-bg.jpg);
+	background:linear-gradient(#1a303a,#151a1ca1),url(images/cta-bg.jpg);
 	background-position:center;
 	position:relative;
 	background-attachment:fixed;
@@ -675,7 +639,6 @@
 }
 .mob{
 	padding:60px 0;
-
 	text-align:center;
 }
 @media (min-width:320px){
@@ -697,7 +660,7 @@
 	.teams-photos{
 		width:23%;
 		font-size:1em;
-		}
+	}
 }
 .team{
 	background-color:#f4fbfe;
@@ -763,20 +726,18 @@
 	
 	position:absolute;
 	top:70%;
-	left:23%;
-	
-	
+	left:23%;	
 }
 .teams-photos:hover.teams-photos .teams-image .team-icons i{
 	opacity:100%;
 	transform:translate(0,20px);
 }
 @media(min-width:320px){
-	.contect8{
+	.gallery-head{
 		width:100%;
 		margin:0 auto;
 	}
-	.poss{
+	.gallery-whole{
 		display:flex;
 		flex-wrap:wrap;	
 	}
@@ -785,10 +746,10 @@
 	}
 }
 @media(min-width:600px){
-	.contect8{
+	.gallery-head{
 		width:85%;   		
 	}
-	.poss{
+	.gallery-whole{
 		display:flex;
 		flex-wrap:wrap;	
 		justify-content:space-evenly;
@@ -799,10 +760,10 @@
 
 }
 @media(min-width:1025px){
-	.contect8{
+	.gallery-head{
 		width:85%;
 	}
-	.poss{
+	.gallery-whole{
 		display:flex;
 		flex-wrap:wrap;
 	}
@@ -816,15 +777,15 @@
 	width:100%;
 	margin:0 auto;
 }
-.content8{
+.gallery-head{
 	width:80%;
 	margin:0 auto;
 }	
-.mass{
+.gallery-para{
 	text-align:center;
 	padding-bottom:2rem;
 }
-.mass h2{
+.gallery-para h2{
 	padding-top:2rem;
 	padding-bottom:1rem;
 	font-family: "Dosis", sans-serif;
@@ -841,23 +802,22 @@
 .poss-in:hover img{
 	transform:scale(1.1);
 }
-.paper{
-	margin:3rem 0;
-	width:100%;
-	
-}
-.contact12{
+
+.head-in{
 	width:80%;
 	margin:0 auto;
 }
+.head-in h1{
+	text-align:center;
+}
+.head-in p{
+	text-align:center;
+}
+
 .map-in{
 	margin:4em auto;
-	width:90%;
+	width:70%;
 	
-}
-.head-in{
-	text-align:center;
-	margin:1rem 0;
 }
 .section-in{
 	width:100%
@@ -879,7 +839,7 @@
 		width:100%;
 	}
 	.form-content-2{
-	width:80%;
+	    width:80%;
 	
 	}
 }
@@ -889,7 +849,7 @@
 		width:35%;
 	}
 	.form-content-2{
-	width:55%;
+	    width:55%;
 	}
 }
 .contents-in{
@@ -1004,7 +964,7 @@ footer{
 
 @media (min-width:1024px){
 	.book-in form{
-			width:45%;
+	    width:45%;
 	}
 }
 .book-in form{
@@ -1053,7 +1013,7 @@ footer a{
 	color:#49b5e7;
 	margin:1em;
 }
-.worker .social ul li a:hover{
+.worker .social li a:hover{
 	color:#007aff;
 }
 .butter{
@@ -1068,7 +1028,6 @@ footer a{
 	line-height:3em;
 	font-size:"Dosis", sans-serif;
 	width:100%;
-	
 	background-color:#fff;
 	
 }
